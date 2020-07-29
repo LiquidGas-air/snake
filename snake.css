@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+.game{
+    display: grid;
+    grid-template-areas: 
+    '... end ...'
+    'arena arena score'
+    'arena arena ...';
+}
+.arena {
+    grid-area: "arena";
+    width: 500px;
+    height: 500px;
+    border: solid white 2px;
+    position: relative;
+}
+
+.snake0 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: red;
+}
+
+
+.fruit{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background:white;
+}
+
+h1{
+    grid-area: "end";
+    color: black;
+}
+h2{
+    grid-area: "score";
+    color: white;
+    font-family: "Lucida Console";
+}
