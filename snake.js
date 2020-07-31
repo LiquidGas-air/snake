@@ -81,7 +81,7 @@ window.onload = function () {
             snake.unshift(newHead);
             console.log(snake)
         }
-        if (snakeX<0 || snakeX>=500 || snakeY<0 ||snakeY>500){
+        if (snakeX<0 || snakeX>=500 || snakeY<0 ||snakeY>=500){
             clearInterval(mm);
             document.querySelector('h1').style.color="white";
         }
