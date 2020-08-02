@@ -10,7 +10,7 @@ body {
     'arena arena ...';
 }
 .arena {
-    grid-area: "arena";
+    grid-area: arena;
     width: 500px;
     height: 500px;
     border: solid white 2px;
@@ -33,11 +33,11 @@ body {
 }
 
 h1{
-    grid-area: "end";
+    grid-area: end;
     color: black;
 }
 h2{
-    grid-area: "score";
+    grid-area: score;
     color: white;
     font-family: "Lucida Console";
 }
